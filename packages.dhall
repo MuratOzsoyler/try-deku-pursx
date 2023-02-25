@@ -99,44 +99,7 @@ in  upstream
 -------------------------------
 -}
 let upstream =
-      https://github.com/purescript/package-sets/releases/download/psc-0.15.7-20230219/packages.dhall
-        sha256:2ba900b6b1cdeb3ad8f1554d1ceaafede6a9451dc009f96ef45754476d00c900
+      https://github.com/purescript/package-sets/releases/download/psc-0.15.7-20230224/packages.dhall
+        sha256:b9e82e6715e87e2a701e925d5d1414bff8f7e923172bf58c2d9d77b0fa81b578
 
 in  upstream
-  with deku =
-    { dependencies =
-      [ "aff"
-      , "arrays"
-      , "bolson"
-      , "catenable-lists"
-      , "control"
-      , "css"
-      , "effect"
-      , "either"
-      , "fast-vect"
-      , "filterable"
-      , "foldable-traversable"
-      , "foreign-object"
-      , "hyrule"
-      , "maybe"
-      , "newtype"
-      , "ordered-collections"
-      , "prelude"
-      , "profunctor"
-      , "profunctor-lenses"
-      , "quickcheck"
-      , "record"
-      , "safe-coerce"
-      , "st"
-      , "strings"
-      , "transformers"
-      , "tuples"
-      , "unsafe-coerce"
-      , "web-dom"
-      , "web-events"
-      , "web-html"
-      , "web-uievents"
-      ]
-    , repo = "https://github.com/mikesol/purescript-deku.git"
-    , version = "main"
-    }
